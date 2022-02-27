@@ -35,3 +35,23 @@ console.log(Math.min(64, 36, 15, 28.6, 47)); //Retorna o menor valor entre os ar
 console.log(Math.max(64, 36, 15, 28.6, 47)); //Retorna o maior valor entre os argumentos.
 console.log(Math.random()); //Retorna um valor randômico (random em inglês) entre 0 e 1
 console.log(Math.random());
+
+// declaração de função - pode criar a função depois de imprimir
+function minhaFuncao(param) {
+    //bloco de código
+}
+minhaFuncao("param");
+
+// expressão de função - 1º cria o const e depois imprime
+
+const somas = function(num1, num2) { return num1 + num2 };
+console.log(somas(2, 2));
+
+//diferenças principais
+
+// declaração de função pode ser imprimido antes de criar a função
+console.log(apresentar());
+
+function apresentar() {
+    return "olá";
+}
