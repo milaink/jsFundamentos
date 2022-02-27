@@ -7,10 +7,14 @@ let nume = '5454564321';
 
 let citacao = "Meu nome é ";
 let nome = 'Camila';
+let idade = 32;
 
 // concatenar
 
 console.log('Meu nome é ' + nome);
+
+//Template literal
+console.log(`Meu nome é ${nome} e tenho ${idade} anos.`)
 
 // unicode
 
